@@ -252,3 +252,6 @@ cython_debug/
 
 # db files
 datas/
+
+# model files
+models/
