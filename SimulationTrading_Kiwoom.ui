@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1340</width>
-    <height>902</height>
+    <width>1920</width>
+    <height>1080</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -18,14 +18,14 @@
   </property>
   <property name="minimumSize">
    <size>
-    <width>1340</width>
-    <height>902</height>
+    <width>1920</width>
+    <height>1080</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
-    <width>1340</width>
-    <height>902</height>
+    <width>1920</width>
+    <height>1080</height>
    </size>
   </property>
   <property name="baseSize">
@@ -42,9 +42,9 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>40</y>
-      <width>601</width>
-      <height>471</height>
+      <y>50</y>
+      <width>921</width>
+      <height>511</height>
      </rect>
     </property>
     <property name="autoFillBackground">
@@ -103,9 +103,9 @@ background-color:lightblue;
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>510</y>
-      <width>111</width>
-      <height>31</height>
+      <y>560</y>
+      <width>141</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
@@ -121,10 +121,10 @@ background-color:lightblue;
    <widget class="QLabel" name="label_7">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>510</y>
-      <width>111</width>
-      <height>31</height>
+      <x>290</x>
+      <y>560</y>
+      <width>141</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
@@ -140,10 +140,10 @@ background-color:lightblue;
    <widget class="QLabel" name="ko_cntLabel">
     <property name="geometry">
      <rect>
-      <x>100</x>
-      <y>510</y>
-      <width>51</width>
-      <height>31</height>
+      <x>150</x>
+      <y>560</y>
+      <width>91</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
@@ -164,10 +164,10 @@ background-color:lightblue;
    <widget class="QLabel" name="kq_cntLabel">
     <property name="geometry">
      <rect>
-      <x>270</x>
-      <y>510</y>
-      <width>51</width>
-      <height>31</height>
+      <x>430</x>
+      <y>560</y>
+      <width>81</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
@@ -188,10 +188,10 @@ background-color:lightblue;
    <widget class="QLabel" name="runcntLabel">
     <property name="geometry">
      <rect>
-      <x>490</x>
-      <y>510</y>
-      <width>51</width>
-      <height>31</height>
+      <x>750</x>
+      <y>560</y>
+      <width>81</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
@@ -212,10 +212,10 @@ background-color:lightblue;
    <widget class="QLabel" name="label_8">
     <property name="geometry">
      <rect>
-      <x>400</x>
-      <y>510</y>
-      <width>91</width>
-      <height>31</height>
+      <x>630</x>
+      <y>560</y>
+      <width>121</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
@@ -231,10 +231,10 @@ background-color:lightblue;
    <widget class="QLabel" name="label_9">
     <property name="geometry">
      <rect>
-      <x>550</x>
-      <y>510</y>
+      <x>840</x>
+      <y>560</y>
       <width>16</width>
-      <height>31</height>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
@@ -250,10 +250,10 @@ background-color:lightblue;
    <widget class="QLabel" name="allcntLabel">
     <property name="geometry">
      <rect>
-      <x>560</x>
-      <y>510</y>
-      <width>51</width>
-      <height>31</height>
+      <x>850</x>
+      <y>560</y>
+      <width>71</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
@@ -275,9 +275,9 @@ background-color:lightblue;
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>550</y>
-      <width>601</width>
-      <height>311</height>
+      <y>620</y>
+      <width>671</width>
+      <height>401</height>
      </rect>
     </property>
     <property name="font">
@@ -315,8 +315,8 @@ background-color:lightblue;
        <rect>
         <x>4</x>
         <y>10</y>
-        <width>291</width>
-        <height>211</height>
+        <width>321</width>
+        <height>271</height>
        </rect>
       </property>
       <property name="title">
@@ -326,9 +326,9 @@ background-color:lightblue;
        <property name="geometry">
         <rect>
          <x>20</x>
-         <y>50</y>
+         <y>70</y>
          <width>71</width>
-         <height>21</height>
+         <height>31</height>
         </rect>
        </property>
        <property name="font">
@@ -346,10 +346,10 @@ background-color:lightblue;
       <widget class="QComboBox" name="buy_cond1ComboBox">
        <property name="geometry">
         <rect>
-         <x>90</x>
-         <y>50</y>
-         <width>191</width>
-         <height>22</height>
+         <x>110</x>
+         <y>70</y>
+         <width>201</width>
+         <height>31</height>
         </rect>
        </property>
        <property name="font">
@@ -380,10 +380,10 @@ background-color:lightblue;
       <widget class="QLineEdit" name="buy_cond0LineEdit">
        <property name="geometry">
         <rect>
-         <x>90</x>
-         <y>20</y>
-         <width>91</width>
-         <height>21</height>
+         <x>110</x>
+         <y>30</y>
+         <width>131</width>
+         <height>31</height>
         </rect>
        </property>
        <property name="font">
@@ -424,9 +424,9 @@ background-color:lightblue;
        <property name="geometry">
         <rect>
          <x>20</x>
-         <y>20</y>
-         <width>71</width>
-         <height>21</height>
+         <y>30</y>
+         <width>91</width>
+         <height>31</height>
         </rect>
        </property>
        <property name="font">
@@ -444,10 +444,10 @@ background-color:lightblue;
       <widget class="QLabel" name="label_30">
        <property name="geometry">
         <rect>
-         <x>180</x>
-         <y>20</y>
-         <width>61</width>
-         <height>21</height>
+         <x>240</x>
+         <y>30</y>
+         <width>71</width>
+         <height>31</height>
         </rect>
        </property>
        <property name="font">
@@ -469,9 +469,9 @@ background-color:lightblue;
        <property name="geometry">
         <rect>
          <x>10</x>
-         <y>150</y>
-         <width>271</width>
-         <height>23</height>
+         <y>190</y>
+         <width>301</width>
+         <height>31</height>
         </rect>
        </property>
        <property name="text">
@@ -481,10 +481,10 @@ background-color:lightblue;
       <widget class="QComboBox" name="buy_cond2ComboBox">
        <property name="geometry">
         <rect>
-         <x>90</x>
-         <y>80</y>
-         <width>191</width>
-         <height>22</height>
+         <x>110</x>
+         <y>110</y>
+         <width>201</width>
+         <height>31</height>
         </rect>
        </property>
        <property name="font">
@@ -516,9 +516,9 @@ background-color:lightblue;
        <property name="geometry">
         <rect>
          <x>20</x>
-         <y>80</y>
+         <y>110</y>
          <width>71</width>
-         <height>21</height>
+         <height>31</height>
         </rect>
        </property>
        <property name="font">
@@ -537,9 +537,9 @@ background-color:lightblue;
        <property name="geometry">
         <rect>
          <x>10</x>
-         <y>180</y>
-         <width>271</width>
-         <height>23</height>
+         <y>230</y>
+         <width>301</width>
+         <height>31</height>
         </rect>
        </property>
        <property name="text">
@@ -550,9 +550,9 @@ background-color:lightblue;
        <property name="geometry">
         <rect>
          <x>10</x>
-         <y>120</y>
-         <width>271</width>
-         <height>23</height>
+         <y>150</y>
+         <width>301</width>
+         <height>31</height>
         </rect>
        </property>
        <property name="text">
@@ -563,10 +563,10 @@ background-color:lightblue;
      <widget class="QDateEdit" name="sim_startDateEdit">
       <property name="geometry">
        <rect>
-        <x>94</x>
-        <y>230</y>
-        <width>110</width>
-        <height>22</height>
+        <x>120</x>
+        <y>290</y>
+        <width>161</width>
+        <height>31</height>
        </rect>
       </property>
       <property name="dateTime">
@@ -586,10 +586,10 @@ background-color:lightblue;
      <widget class="QLabel" name="label_11">
       <property name="geometry">
        <rect>
-        <x>204</x>
-        <y>230</y>
-        <width>21</width>
-        <height>21</height>
+        <x>280</x>
+        <y>290</y>
+        <width>31</width>
+        <height>31</height>
        </rect>
       </property>
       <property name="font">
@@ -608,10 +608,10 @@ background-color:lightblue;
      <widget class="QDateEdit" name="sim_endDateEdit">
       <property name="geometry">
        <rect>
-        <x>224</x>
-        <y>230</y>
-        <width>110</width>
-        <height>22</height>
+        <x>310</x>
+        <y>290</y>
+        <width>151</width>
+        <height>31</height>
        </rect>
       </property>
       <property name="dateTime">
@@ -631,10 +631,10 @@ background-color:lightblue;
      <widget class="QGroupBox" name="groupBox_2">
       <property name="geometry">
        <rect>
-        <x>300</x>
+        <x>330</x>
         <y>10</y>
-        <width>291</width>
-        <height>211</height>
+        <width>321</width>
+        <height>271</height>
        </rect>
       </property>
       <property name="title">
@@ -644,9 +644,9 @@ background-color:lightblue;
        <property name="geometry">
         <rect>
          <x>20</x>
-         <y>50</y>
+         <y>70</y>
          <width>71</width>
-         <height>21</height>
+         <height>31</height>
         </rect>
        </property>
        <property name="font">
@@ -665,9 +665,9 @@ background-color:lightblue;
        <property name="geometry">
         <rect>
          <x>90</x>
-         <y>50</y>
-         <width>191</width>
-         <height>22</height>
+         <y>70</y>
+         <width>221</width>
+         <height>31</height>
         </rect>
        </property>
        <property name="font">
@@ -699,9 +699,9 @@ background-color:lightblue;
        <property name="geometry">
         <rect>
          <x>20</x>
-         <y>20</y>
+         <y>30</y>
          <width>71</width>
-         <height>21</height>
+         <height>31</height>
         </rect>
        </property>
        <property name="font">
@@ -720,9 +720,9 @@ background-color:lightblue;
        <property name="geometry">
         <rect>
          <x>90</x>
-         <y>20</y>
-         <width>51</width>
-         <height>21</height>
+         <y>30</y>
+         <width>71</width>
+         <height>31</height>
         </rect>
        </property>
        <property name="font">
@@ -762,10 +762,10 @@ background-color:lightblue;
       <widget class="QLabel" name="label_37">
        <property name="geometry">
         <rect>
-         <x>140</x>
-         <y>20</y>
+         <x>160</x>
+         <y>30</y>
          <width>31</width>
-         <height>21</height>
+         <height>31</height>
         </rect>
        </property>
        <property name="font">
@@ -785,9 +785,9 @@ background-color:lightblue;
        <property name="geometry">
         <rect>
          <x>10</x>
-         <y>150</y>
-         <width>271</width>
-         <height>23</height>
+         <y>190</y>
+         <width>301</width>
+         <height>31</height>
         </rect>
        </property>
        <property name="text">
@@ -798,9 +798,9 @@ background-color:lightblue;
        <property name="geometry">
         <rect>
          <x>20</x>
-         <y>80</y>
+         <y>110</y>
          <width>71</width>
-         <height>21</height>
+         <height>31</height>
         </rect>
        </property>
        <property name="font">
@@ -819,9 +819,9 @@ background-color:lightblue;
        <property name="geometry">
         <rect>
          <x>90</x>
-         <y>80</y>
-         <width>191</width>
-         <height>22</height>
+         <y>110</y>
+         <width>221</width>
+         <height>31</height>
         </rect>
        </property>
        <property name="font">
@@ -853,9 +853,9 @@ background-color:lightblue;
        <property name="geometry">
         <rect>
          <x>10</x>
-         <y>180</y>
-         <width>271</width>
-         <height>23</height>
+         <y>230</y>
+         <width>301</width>
+         <height>31</height>
         </rect>
        </property>
        <property name="text">
@@ -866,9 +866,9 @@ background-color:lightblue;
        <property name="geometry">
         <rect>
          <x>10</x>
-         <y>120</y>
-         <width>271</width>
-         <height>23</height>
+         <y>150</y>
+         <width>301</width>
+         <height>31</height>
         </rect>
        </property>
        <property name="text">
@@ -879,23 +879,23 @@ background-color:lightblue;
      <widget class="QPushButton" name="runPushButton">
       <property name="geometry">
        <rect>
-        <x>350</x>
-        <y>230</y>
-        <width>241</width>
-        <height>23</height>
+        <x>470</x>
+        <y>290</y>
+        <width>181</width>
+        <height>31</height>
        </rect>
       </property>
       <property name="text">
-       <string>한종목 시뮬레이션</string>
+       <string>한종목 검색</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_4">
       <property name="geometry">
        <rect>
-        <x>24</x>
-        <y>230</y>
-        <width>71</width>
-        <height>21</height>
+        <x>20</x>
+        <y>290</y>
+        <width>91</width>
+        <height>31</height>
        </rect>
       </property>
       <property name="font">
@@ -913,23 +913,23 @@ background-color:lightblue;
      <widget class="QPushButton" name="run_totalPushButton">
       <property name="geometry">
        <rect>
-        <x>350</x>
-        <y>260</y>
-        <width>241</width>
-        <height>23</height>
+        <x>470</x>
+        <y>330</y>
+        <width>181</width>
+        <height>31</height>
        </rect>
       </property>
       <property name="text">
-       <string>전종목 시뮬레이션</string>
+       <string>전종목 검색</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_15">
       <property name="geometry">
        <rect>
-        <x>24</x>
-        <y>260</y>
-        <width>71</width>
-        <height>21</height>
+        <x>20</x>
+        <y>330</y>
+        <width>91</width>
+        <height>31</height>
        </rect>
       </property>
       <property name="font">
@@ -941,16 +941,16 @@ background-color:lightblue;
        </font>
       </property>
       <property name="text">
-       <string>예수금 :</string>
+       <string>예  수  금 :</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_16">
       <property name="geometry">
        <rect>
-        <x>210</x>
-        <y>260</y>
-        <width>21</width>
-        <height>21</height>
+        <x>280</x>
+        <y>330</y>
+        <width>31</width>
+        <height>31</height>
        </rect>
       </property>
       <property name="font">
@@ -969,10 +969,10 @@ background-color:lightblue;
      <widget class="QLineEdit" name="depositLineEdit">
       <property name="geometry">
        <rect>
-        <x>93</x>
-        <y>260</y>
-        <width>111</width>
-        <height>21</height>
+        <x>120</x>
+        <y>330</y>
+        <width>161</width>
+        <height>31</height>
        </rect>
       </property>
       <property name="font">
@@ -1002,10 +1002,10 @@ background-color:lightblue;
    <widget class="QWidget" name="verticalLayoutWidget">
     <property name="geometry">
      <rect>
-      <x>620</x>
-      <y>40</y>
-      <width>711</width>
-      <height>471</height>
+      <x>940</x>
+      <y>50</y>
+      <width>971</width>
+      <height>511</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="chartVerticalLayout"/>
@@ -1013,10 +1013,10 @@ background-color:lightblue;
    <widget class="QScrollBar" name="chartScrollBar">
     <property name="geometry">
      <rect>
-      <x>620</x>
-      <y>520</y>
-      <width>711</width>
-      <height>21</height>
+      <x>940</x>
+      <y>560</y>
+      <width>971</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="orientation">
@@ -1026,10 +1026,10 @@ background-color:lightblue;
    <widget class="QTabWidget" name="tabWidget">
     <property name="geometry">
      <rect>
-      <x>610</x>
-      <y>550</y>
-      <width>721</width>
-      <height>311</height>
+      <x>690</x>
+      <y>620</y>
+      <width>1231</width>
+      <height>401</height>
      </rect>
     </property>
     <property name="font">
@@ -1055,8 +1055,8 @@ background-color:lightblue;
        <rect>
         <x>0</x>
         <y>0</y>
-        <width>711</width>
-        <height>281</height>
+        <width>1221</width>
+        <height>361</height>
        </rect>
       </property>
       <property name="styleSheet">
@@ -1138,8 +1138,8 @@ background-color:lightblue;
        <rect>
         <x>0</x>
         <y>0</y>
-        <width>711</width>
-        <height>251</height>
+        <width>1221</width>
+        <height>321</height>
        </rect>
       </property>
       <property name="styleSheet">
@@ -1219,10 +1219,10 @@ background-color:lightblue;
      <widget class="QLabel" name="label_18">
       <property name="geometry">
        <rect>
-        <x>140</x>
-        <y>260</y>
-        <width>111</width>
-        <height>21</height>
+        <x>10</x>
+        <y>330</y>
+        <width>141</width>
+        <height>31</height>
        </rect>
       </property>
       <property name="font">
@@ -1240,10 +1240,10 @@ background-color:lightblue;
      <widget class="QLabel" name="remain_profitLabel">
       <property name="geometry">
        <rect>
-        <x>250</x>
-        <y>260</y>
-        <width>131</width>
-        <height>21</height>
+        <x>150</x>
+        <y>330</y>
+        <width>231</width>
+        <height>31</height>
        </rect>
       </property>
       <property name="font">
@@ -1264,10 +1264,10 @@ background-color:lightblue;
      <widget class="QLabel" name="label_20">
       <property name="geometry">
        <rect>
-        <x>420</x>
-        <y>260</y>
-        <width>91</width>
-        <height>21</height>
+        <x>580</x>
+        <y>330</y>
+        <width>121</width>
+        <height>31</height>
        </rect>
       </property>
       <property name="font">
@@ -1285,10 +1285,10 @@ background-color:lightblue;
      <widget class="QLabel" name="remain_rateLabel">
       <property name="geometry">
        <rect>
-        <x>510</x>
-        <y>260</y>
-        <width>201</width>
-        <height>21</height>
+        <x>700</x>
+        <y>330</y>
+        <width>261</width>
+        <height>31</height>
        </rect>
       </property>
       <property name="font">
@@ -1316,8 +1316,8 @@ background-color:lightblue;
        <rect>
         <x>0</x>
         <y>0</y>
-        <width>711</width>
-        <height>251</height>
+        <width>1221</width>
+        <height>321</height>
        </rect>
       </property>
       <property name="styleSheet">
@@ -1392,10 +1392,10 @@ background-color:lightblue;
      <widget class="QLabel" name="profit_rateLabel">
       <property name="geometry">
        <rect>
-        <x>510</x>
-        <y>260</y>
-        <width>201</width>
-        <height>21</height>
+        <x>630</x>
+        <y>330</y>
+        <width>261</width>
+        <height>31</height>
        </rect>
       </property>
       <property name="font">
@@ -1416,10 +1416,10 @@ background-color:lightblue;
      <widget class="QLabel" name="label_19">
       <property name="geometry">
        <rect>
-        <x>140</x>
-        <y>260</y>
-        <width>111</width>
-        <height>21</height>
+        <x>10</x>
+        <y>330</y>
+        <width>141</width>
+        <height>31</height>
        </rect>
       </property>
       <property name="font">
@@ -1437,10 +1437,10 @@ background-color:lightblue;
      <widget class="QLabel" name="profit_profitLabel">
       <property name="geometry">
        <rect>
-        <x>250</x>
-        <y>260</y>
-        <width>131</width>
-        <height>21</height>
+        <x>150</x>
+        <y>330</y>
+        <width>221</width>
+        <height>31</height>
        </rect>
       </property>
       <property name="font">
@@ -1461,10 +1461,10 @@ background-color:lightblue;
      <widget class="QLabel" name="label_21">
       <property name="geometry">
        <rect>
-        <x>420</x>
-        <y>260</y>
-        <width>91</width>
-        <height>21</height>
+        <x>510</x>
+        <y>330</y>
+        <width>121</width>
+        <height>31</height>
        </rect>
       </property>
       <property name="font">
@@ -1484,10 +1484,10 @@ background-color:lightblue;
    <widget class="QComboBox" name="rangeComboBox">
     <property name="geometry">
      <rect>
-      <x>1250</x>
+      <x>1800</x>
       <y>10</y>
-      <width>76</width>
-      <height>22</height>
+      <width>111</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="font">
@@ -1523,10 +1523,10 @@ background-color:lightblue;
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>1160</x>
+      <x>1660</x>
       <y>10</y>
-      <width>101</width>
-      <height>21</height>
+      <width>131</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="font">
@@ -1547,10 +1547,10 @@ background-color:lightblue;
     </property>
     <property name="geometry">
      <rect>
-      <x>270</x>
+      <x>430</x>
       <y>10</y>
-      <width>101</width>
-      <height>22</height>
+      <width>161</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="font">
@@ -1604,10 +1604,10 @@ background-color:lightblue;
    <widget class="QComboBox" name="sel_marketComboBox">
     <property name="geometry">
      <rect>
-      <x>90</x>
+      <x>100</x>
       <y>10</y>
-      <width>101</width>
-      <height>22</height>
+      <width>161</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="font">
@@ -1640,8 +1640,8 @@ background-color:lightblue;
      <rect>
       <x>20</x>
       <y>10</y>
-      <width>71</width>
-      <height>21</height>
+      <width>81</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="font">
@@ -1659,10 +1659,10 @@ background-color:lightblue;
    <widget class="QLabel" name="label_27">
     <property name="geometry">
      <rect>
-      <x>200</x>
+      <x>340</x>
       <y>10</y>
-      <width>71</width>
-      <height>21</height>
+      <width>81</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="font">
@@ -1680,10 +1680,10 @@ background-color:lightblue;
    <widget class="QPushButton" name="clear_sim_resultPushButton">
     <property name="geometry">
      <rect>
-      <x>620</x>
+      <x>1190</x>
       <y>10</y>
-      <width>111</width>
-      <height>23</height>
+      <width>141</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="font">
@@ -1703,10 +1703,10 @@ background-color:lightblue;
     </property>
     <property name="geometry">
      <rect>
-      <x>740</x>
+      <x>1440</x>
       <y>10</y>
-      <width>111</width>
-      <height>23</height>
+      <width>131</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="font">
@@ -1723,10 +1723,10 @@ background-color:lightblue;
    <widget class="QPushButton" name="save_stocks_infoPushButton">
     <property name="geometry">
      <rect>
-      <x>390</x>
+      <x>700</x>
       <y>10</y>
-      <width>221</width>
-      <height>23</height>
+      <width>231</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="font">
@@ -1746,8 +1746,8 @@ background-color:lightblue;
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1340</width>
-     <height>26</height>
+     <width>1920</width>
+     <height>31</height>
     </rect>
    </property>
   </widget>

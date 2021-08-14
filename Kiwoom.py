@@ -1,9 +1,8 @@
-import sys
-from PyQt5.QtWidgets import *
+import datetime
+
 from PyQt5.QAxContainer import *
 from PyQt5.QtCore import *
 from pandas import DataFrame
-import datetime
 
 # Kiwoom Class --------------------------------------------------------------------------------------------------------
 TR_REQ_TIME_INTERVAL = 0.3

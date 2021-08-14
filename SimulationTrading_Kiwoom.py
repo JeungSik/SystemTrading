@@ -1,4 +1,5 @@
 import sqlite3
+import sys
 import time
 
 import matplotlib.pyplot as plt
@@ -8,6 +9,7 @@ import numpy as np
 import pandas as pd
 from PyQt5 import QtCore, QtWidgets, QtGui
 from PyQt5 import uic
+from PyQt5.QtWidgets import *
 from dateutil.relativedelta import relativedelta
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 
@@ -608,12 +610,12 @@ class SimulationTrading(QMainWindow, main_form):
             item.setTextAlignment(Qt.AlignVCenter | Qt.AlignRight)
             self.stockTable.setItem(i, stockTable_column['거래량'], item)
 
-        self.stockTable.setColumnWidth(stockTable_column['종목코드'], 70)
-        self.stockTable.setColumnWidth(stockTable_column['종목명'], 150)
-        self.stockTable.setColumnWidth(stockTable_column['구분'], 50)
-        self.stockTable.setColumnWidth(stockTable_column['기준일'], 150)
-        self.stockTable.setColumnWidth(stockTable_column['현재가'], 80)
-        self.stockTable.setColumnWidth(stockTable_column['거래량'], 80)
+        self.stockTable.setColumnWidth(stockTable_column['종목코드'], 100)
+        self.stockTable.setColumnWidth(stockTable_column['종목명'], 200)
+        self.stockTable.setColumnWidth(stockTable_column['구분'], 100)
+        self.stockTable.setColumnWidth(stockTable_column['기준일'], 220)
+        self.stockTable.setColumnWidth(stockTable_column['현재가'], 120)
+        self.stockTable.setColumnWidth(stockTable_column['거래량'], 140)
 
         self.stockTable.resizeRowsToContents()
 
@@ -647,43 +649,43 @@ class SimulationTrading(QMainWindow, main_form):
 
     def clear_simulation_result_table(self):
         self.stockSimTable.setRowCount(0)
-        self.stockSimTable.setColumnWidth(stockSimTable_column['종목명'], 220)
-        self.stockSimTable.setColumnWidth(stockSimTable_column['일자'], 80)
-        self.stockSimTable.setColumnWidth(stockSimTable_column['구분'], 50)
-        self.stockSimTable.setColumnWidth(stockSimTable_column['수량'], 50)
-        self.stockSimTable.setColumnWidth(stockSimTable_column['매매가'], 80)
-        self.stockSimTable.setColumnWidth(stockSimTable_column['수수료'], 60)
-        self.stockSimTable.setColumnWidth(stockSimTable_column['세금'], 60)
-        self.stockSimTable.setColumnWidth(stockSimTable_column['수익률'], 70)
-        self.stockSimTable.setColumnWidth(stockSimTable_column['수익금'], 80)
-        self.stockSimTable.setColumnWidth(stockSimTable_column['누적수익금'], 100)
+        self.stockSimTable.setColumnWidth(stockSimTable_column['종목명'], 200)
+        self.stockSimTable.setColumnWidth(stockSimTable_column['일자'], 120)
+        self.stockSimTable.setColumnWidth(stockSimTable_column['구분'], 100)
+        self.stockSimTable.setColumnWidth(stockSimTable_column['수량'], 100)
+        self.stockSimTable.setColumnWidth(stockSimTable_column['매매가'], 120)
+        self.stockSimTable.setColumnWidth(stockSimTable_column['수수료'], 120)
+        self.stockSimTable.setColumnWidth(stockSimTable_column['세금'], 110)
+        self.stockSimTable.setColumnWidth(stockSimTable_column['수익률'], 80)
+        self.stockSimTable.setColumnWidth(stockSimTable_column['수익금'], 120)
+        self.stockSimTable.setColumnWidth(stockSimTable_column['누적수익금'], 120)
 
     def clear_simulation_remain_table(self):
         self.stockRemainTable.setRowCount(0)
-        self.stockRemainTable.setColumnWidth(stockRemainTable_column['종목명'], 220)
-        self.stockRemainTable.setColumnWidth(stockRemainTable_column['매수일'], 80)
-        self.stockRemainTable.setColumnWidth(stockRemainTable_column['수량'], 50)
-        self.stockRemainTable.setColumnWidth(stockRemainTable_column['매수가'], 70)
-        self.stockRemainTable.setColumnWidth(stockRemainTable_column['평가손익'], 100)
-        self.stockRemainTable.setColumnWidth(stockRemainTable_column['수익률'], 60)
-        self.stockRemainTable.setColumnWidth(stockRemainTable_column['현재가'], 70)
+        self.stockRemainTable.setColumnWidth(stockRemainTable_column['종목명'], 200)
+        self.stockRemainTable.setColumnWidth(stockRemainTable_column['매수일'], 120)
+        self.stockRemainTable.setColumnWidth(stockRemainTable_column['수량'], 80)
+        self.stockRemainTable.setColumnWidth(stockRemainTable_column['매수가'], 80)
+        self.stockRemainTable.setColumnWidth(stockRemainTable_column['평가손익'], 120)
+        self.stockRemainTable.setColumnWidth(stockRemainTable_column['수익률'], 80)
+        self.stockRemainTable.setColumnWidth(stockRemainTable_column['현재가'], 90)
         self.stockRemainTable.setColumnWidth(stockRemainTable_column['매수금액'], 100)
-        self.stockRemainTable.setColumnWidth(stockRemainTable_column['평가금액'], 100)
-        self.stockRemainTable.setColumnWidth(stockRemainTable_column['수수료'], 60)
-        self.stockRemainTable.setColumnWidth(stockRemainTable_column['세금'], 60)
+        self.stockRemainTable.setColumnWidth(stockRemainTable_column['평가금액'], 120)
+        self.stockRemainTable.setColumnWidth(stockRemainTable_column['수수료'], 100)
+        self.stockRemainTable.setColumnWidth(stockRemainTable_column['세금'], 100)
 
     def clear_simulation_profit_table(self):
         self.stockProfitTable.setRowCount(0)
-        self.stockProfitTable.setColumnWidth(stockProfitTable_column['종목명'], 220)
-        self.stockProfitTable.setColumnWidth(stockProfitTable_column['매도일'], 80)
-        self.stockProfitTable.setColumnWidth(stockProfitTable_column['실현손익'], 100)
-        self.stockProfitTable.setColumnWidth(stockProfitTable_column['수익률'], 60)
+        self.stockProfitTable.setColumnWidth(stockProfitTable_column['종목명'], 200)
+        self.stockProfitTable.setColumnWidth(stockProfitTable_column['매도일'], 120)
+        self.stockProfitTable.setColumnWidth(stockProfitTable_column['실현손익'], 120)
+        self.stockProfitTable.setColumnWidth(stockProfitTable_column['수익률'], 110)
         self.stockProfitTable.setColumnWidth(stockProfitTable_column['매수금액'], 100)
         self.stockProfitTable.setColumnWidth(stockProfitTable_column['매도금액'], 100)
-        self.stockProfitTable.setColumnWidth(stockProfitTable_column['매수가'], 70)
-        self.stockProfitTable.setColumnWidth(stockProfitTable_column['매도가'], 70)
-        self.stockProfitTable.setColumnWidth(stockProfitTable_column['수수료'], 60)
-        self.stockProfitTable.setColumnWidth(stockProfitTable_column['세금'], 60)
+        self.stockProfitTable.setColumnWidth(stockProfitTable_column['매수가'], 100)
+        self.stockProfitTable.setColumnWidth(stockProfitTable_column['매도가'], 100)
+        self.stockProfitTable.setColumnWidth(stockProfitTable_column['수수료'], 120)
+        self.stockProfitTable.setColumnWidth(stockProfitTable_column['세금'], 120)
 
     def draw_chart_plot(self, df_datas):
         self.fig.clear()
